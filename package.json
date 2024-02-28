@@ -4,12 +4,12 @@
   "homepage": "https://github.com/ankane/chartkick.js",
   "description": "Create beautiful charts with one line of JavaScript",
   "type": "module",
-  "main": "./dist/chartkick.js",
-  "module": "./dist/chartkick.esm.js",
+  "main": "./src/chartkick.js",
+  "module": "./src/chartkick.esm.js",
   "exports": {
     ".": {
-      "require": "./dist/chartkick.js",
-      "import": "./dist/chartkick.esm.js"
+      "require": "./src/chartkick.js",
+      "import": "./src/chartkick.esm.js"
     },
     "./chart.js": "./chart.js/chart.esm.js",
     "./highcharts": "./highcharts/highcharts.esm.js"
@@ -30,7 +30,7 @@
     "url": "https://github.com/ankane/chartkick.js"
   },
   "files": [
-    "dist",
+    "src",
     "chart.js",
     "highcharts"
   ],
