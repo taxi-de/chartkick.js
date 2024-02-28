@@ -44,7 +44,7 @@
   },
   "optionalDependencies": {
     "chart.js": "4",
-    "chartjs-adapter-date-fns": ">=3",
-    "date-fns": ">=2"
+    "chartjs-adapter-date-fns": "^3",
+    "date-fns": "^2"
   }
 }
